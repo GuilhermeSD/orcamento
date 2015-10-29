@@ -1,0 +1,22 @@
+<div class="table-responsive">
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Mês</th>
+			<th>Acessos</th>
+			<th>Valor Venda</th>
+			<th>Total Custo Copo</th>
+			<th>Lucro Copo</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="relatorio in relatorioData">
+			<td>{{relatorio.mes}}</td>
+			<td>{{relatorio.acessos}}</td>
+			<td>{{relatorio.valorVenda}}</td>
+			<td>{{relatorio.totalCustoCopo}}</td>
+			<td>{{relatorio.lucroCopo}}</td>
+		</tr>
+	</tbody>
+</table>
+</div>

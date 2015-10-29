@@ -1,0 +1,21 @@
+<div class="row">
+	<input class="form-control" name="cliente-search" 
+	placeholder="Procure por um Cliente" ng-model='clienteSearch'>
+</div>
+<br/>
+<div class="row">
+	<ul class="list-group" ng-repeat="cliente in clientes">
+		<li class="row list-group-item">
+			<div class="col-md-6">{{cliente.nome}}</div>
+			<div class="col-md-3">
+				<select class="form-control" ng-model="cliente.pagamento" 
+				ng-options="pagamento.idPagamento as pagamento.descricao for pagamento in pagamentos">
+				</select>
+			</div>
+			<div class="col-md-1">
+				<button class="btn btn-success" 
+				ng-click="registraAcesso(cliente,cliente.pagamento)">Registra Acesso</button>
+			</div>
+		</li>
+	</ul>
+</div>
