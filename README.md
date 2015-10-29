@@ -1,3 +1,7 @@
+# comments
+
+This a project that i used for unit test study in javascript, i using in this project AngularJS, Grunt, Jasmine and Karma.
+
 # grid
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
