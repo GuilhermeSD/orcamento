@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc overview
- * @name gridApp
+ * @name orcamentoApp
  * @description
- * # gridApp
+ * # orcamentoApp
  *
  * Main module of the application.
  */
@@ -21,32 +21,18 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
+      .when('/main', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/relatorio-ganhos', {
-        templateUrl: 'views/relatorio-ganhos.html',
-        controller: 'RelatorioGanhosCtrl',
-        controllerAs: 'relatorioGanhos'
-      })
-      .when('/relatorio-vendas', {
-        templateUrl: 'views/relatorio-vendas.html',
-        controller: 'RelatorioVendasCtrl',
-        controllerAs: 'relatorioVendas'
-      })
-      .when('/relatorio-vendas-resumo', {
-        templateUrl: 'views/relatorio-vendas-resumo.html',
-        controller: 'RelatorioVendasResumoCtrl',
-        controllerAs: 'relatorioVendasResumo'
-      })
-      .when('/cadastro-pagamento', {
-        templateUrl: 'views/cadastro-pagamento.html',
-        controller: 'CadastroPagamentoCtrl',
-        controllerAs: 'cadastroPagamento'
+      .when('/', {
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl',
+        controllerAs: 'login'
       })
       .otherwise({
         redirectTo: '/'
       });
-  });
+  }).
+  value('naoExibeNav', false);

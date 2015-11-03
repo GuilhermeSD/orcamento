@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc directive
- * @name gridApp.directive:nav
+ * @name orcamentoApp.directive:nav
  * @description
  * # nav
  */

@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name orcamentoApp.controller:MainCtrl
+ * @name orcamentoApp.controller:LoginCtrl
  * @description
- * # MainCtrl
+ * # LoginCtrl
  * Controller of the orcamentoApp
  */
 angular.module('orcamentoApp')
-  .controller('MainCtrl',function ($scope) {
+  .controller('LoginCtrl', function ($scope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

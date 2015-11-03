@@ -2,10 +2,10 @@
 
 /**
  * @ngdoc function
- * @name gridApp.controller:AboutCtrl
+ * @name orcamentoApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the gridApp
+ * Controller of the orcamentoApp
  */
 angular.module('orcamentoApp')
   .controller('AboutCtrl', function () {
