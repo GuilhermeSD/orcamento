@@ -1,5 +1,5 @@
 {
-  "name": "grid",
+  "name": "orcamento",
   "private": true,
   "devDependencies": {
     "grunt": "^0.4.5",

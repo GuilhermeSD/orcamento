@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the gridApp
  */
-angular.module('gridApp')
+angular.module('orcamentoApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

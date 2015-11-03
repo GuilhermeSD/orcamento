@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the gridApp
  */
-angular.module('gridApp')
+angular.module('orcamentoApp')
   .controller('MainCtrl',function ($scope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',

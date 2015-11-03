@@ -6,7 +6,7 @@
  * @description
  * # nav
  */
-angular.module('gridApp')
+angular.module('orcamentoApp')
   .directive('nav', function ($location) {
     return {
       templateUrl: 'views/nav.html',
