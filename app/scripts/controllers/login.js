@@ -15,4 +15,5 @@ angular.module('orcamentoApp')
       'Karma'
     ];
 
+    $scope.use= true;
   });
