@@ -1,4 +1,4 @@
-# comments
+# Comments
 
 This a project that i used for unit test study in javascript, this project is code with AngularJS, Grunt, Jasmine and Karma.
 
