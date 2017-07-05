@@ -1,6 +1,6 @@
 # comments
 
-This a project that i used for unit test study in javascript, i'm using in this project AngularJS, Grunt, Jasmine and Karma.
+This a project that i used for unit test study in javascript, this project is code with AngularJS, Grunt, Jasmine and Karma.
 
 # Orcamento
 
